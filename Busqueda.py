@@ -1,0 +1,22 @@
+a = dict(x=1,y=4)
+b = dict(y=2)
+c = dict(z=3)
+d = {"x":1,"y":"2"}
+e = dict({"Sabrina":"72086616"})
+f = dict(zip(a,b))
+g = dict(zip(b,c))
+h = dict({"Hola":"Bienvenido"})
+i = dict({"Cachorrito":"Cachorrita"})
+j = dict(m=4)
+
+
+print(a.get("x"))
+print(b.get("y"))
+print(c.get("z"))
+print(d.get("x"))
+print(e.get("Sabrina"))
+print(f.get("x"))
+print(g.get("y"))
+print(h.get("Hola"))
+print(i.get("Cachorrito"))
+print(j.get("m"))
